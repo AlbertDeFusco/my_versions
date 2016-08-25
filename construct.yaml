@@ -1,0 +1,11 @@
+name: MyVersions
+version: 1.0
+
+channels:
+  - http://repo.continuum.io/pkgs/free/
+  - http://conda.anaconda.org/defusco
+
+specs:
+  - python 3.4* [win]
+  - python 3.5* [osx]
+  - my_versions
