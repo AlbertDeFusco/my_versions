@@ -27,9 +27,3 @@ def window(versions):
     w.setWindowTitle("PyQt")
     w.show()
     sys.exit(app.exec_())
-
-def main():
-    window(get_versions())
-
-if __name__ == '__main__':
-    main()
