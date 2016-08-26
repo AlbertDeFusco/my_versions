@@ -1,13 +1,15 @@
 package:
   name: my_versions
-  version: "0.6"
+  version: "1.0"
+
 
 source:
     path: ../
 
+
 build:
-  # noarch_python: True
-  # preserve_egg_dir: True
+  number: 0
+
   entry_points:
       - my_versions = my_versions.__main__:main
 
@@ -16,23 +18,18 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3
     - setuptools
-    - gdal
-    - numpy
-    - pandas
-    - matplotlib
 
   run:
-    - python
-    - setuptools
+    - python >=3
     - gdal
     - numpy
     - pandas
     - matplotlib
     - python.app [osx]
 
+
 app:
   entry: my_versions
   type: desk
-

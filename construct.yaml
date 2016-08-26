@@ -7,6 +7,6 @@ channels:
 
 specs:
   - python 3.4* [win]
-  - python 3.5* [osx]
-  - menuinst
+  - python 3.5* [not win]
+  - menuinst    [win]
   - my_versions

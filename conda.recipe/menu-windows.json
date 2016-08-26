@@ -5,6 +5,7 @@
     {
         "name": "my_versions",
         "system": "${PYTHON_SCRIPTS}/my_versions.exe"
+
     }
     ]
 }

@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup( name='my_versions',
-        version='0.6',
+        version='1.0',
         description='Show package versions',
         author='Albert DeFusco',
         license='MIT',
